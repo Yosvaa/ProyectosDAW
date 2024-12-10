@@ -1,0 +1,51 @@
+body {
+    font-family: 'Doto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4c9c7;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 44em;
+    height: 20em;
+}
+
+button {
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    width: 8em;
+    height: 3em;
+    margin: 0.5em;
+    border: 0.2em solid #222;
+    border-radius: 0.5em;
+    box-shadow: -6px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-left: 0.5em;
+    font-size: 3em;
+}
+
+.gato {
+    cursor: pointer;
+    width: 11em;
+}
+
+.stats {
+    margin: 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.divButton {
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
